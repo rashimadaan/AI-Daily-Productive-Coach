@@ -1,0 +1,40 @@
+<h1>🤖 AI Daily Productive Coach</h1>
+
+<p>Select your time preference:</p>
+<select id="time">
+  <option value="morning">Morning Person</option>
+  <option value="evening">Evening Person</option>
+</select>
+
+<p>Are you feeling distracted today?</p>
+<select id="distraction">
+  <option value="no">No</option>
+  <option value="yes">Yes</option>
+</select>
+
+<p>Enter your task for today:</p>
+<input type="text" id="task" placeholder="Enter your task">
+<br><br>
+
+<button onclick="getAdvice()">Get AI Advice</button>
+<button onclick="addTask()">Add Task</button>
+
+<h3>Your AI Coach Says:</h3>
+<p id="output"></p>
+
+<h3>📊 Productivity Score:</h3>
+<p id="score"></p>
+
+<h3>📝 Task List:</h3>
+<ul id="taskList"></ul>
+
+<h3>🌙 AI Daily Review</h3>
+
+<button onclick="reflection()">Generate AI Daily Review</button>
+
+<p id="reflectionOutput"></p>
+
+<h3>🧠 Habit Learning</h3>
+<p id="habit"></p>
+
+

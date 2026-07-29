@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
 
-/* =====================================
+/* ===========================
    AI DAILY PRODUCTIVE COACH
-   By Rashi Madaan
-===================================== */
+=========================== */
 
 *{
     margin:0;
@@ -14,31 +13,30 @@
 
 body{
 
-    background:linear-gradient(135deg,#fff8fb,#ffeef5,#fff9fc);
+    background:linear-gradient(135deg,#fff8fb,#ffeef7,#fffdfd);
 
     font-family:"Cormorant Garamond",serif;
 
-    padding:40px;
+    padding:50px 0 80px;
 
 }
 
-/* ----------------------------- */
-/* CLASS 12 AI CAPSTONE PROJECT */
-/* ----------------------------- */
 
-.capstone-title{
+/* ===========================
+   TOP TITLE
+=========================== */
 
-    width:950px;
+.page-title{
 
-    margin:0 auto 22px;
+    width:900px;
+
+    margin:0 auto 30px;
 
     text-align:left;
 
-    font-family:Arial,sans-serif;
+    font-family:"Prata",serif;
 
-    font-size:18px;
-
-    font-weight:bold;
+    font-size:20px;
 
     letter-spacing:4px;
 
@@ -46,33 +44,35 @@ body{
 
 }
 
-/* ----------------------------- */
-/* MAIN CARD */
-/* ----------------------------- */
+
+/* ===========================
+   MAIN CARD
+=========================== */
 
 .container{
 
-    width:90%;
+    width:88%;
 
-    max-width:950px;
+    max-width:900px;
 
     margin:auto;
 
     background:white;
 
-    border-radius:30px;
+    border-radius:35px;
 
-    padding:60px;
+    padding:55px 70px;
 
     text-align:center;
 
-    box-shadow:0 20px 45px rgba(236,169,196,.22);
+    box-shadow:0 15px 45px rgba(232,173,199,.25);
 
 }
 
-/* ----------------------------- */
-/* MAIN HEADING */
-/* ----------------------------- */
+
+/* ===========================
+   MAIN HEADING
+=========================== */
 
 .main-title{
 
@@ -86,17 +86,16 @@ body{
 
     line-height:1.1;
 
-    letter-spacing:-1px;
-
     white-space:nowrap;
 
-    margin-bottom:12px;
+    margin-bottom:18px;
 
 }
 
-/* ----------------------------- */
-/* DECORATION */
-/* ----------------------------- */
+
+/* ===========================
+   DIVIDER
+=========================== */
 
 .divider{
 
@@ -106,19 +105,19 @@ body{
 
     align-items:center;
 
-    gap:14px;
+    gap:22px;
 
-    margin-bottom:35px;
+    margin-bottom:28px;
 
 }
 
 .line{
 
-    width:95px;
+    width:90px;
 
     height:1px;
 
-    background:#efb2cb;
+    background:#efb6cb;
 
 }
 
@@ -128,21 +127,22 @@ body{
 
     height:8px;
 
-    background:#efb2cb;
+    background:#efb6cb;
 
     transform:rotate(45deg);
 
 }
 
-/* ----------------------------- */
-/* SUBTITLE */
-/* ----------------------------- */
+
+/* ===========================
+   SUBTITLE
+=========================== */
 
 .subtitle{
 
-    font-size:32px;
+    font-size:30px;
 
-    color:#565674;
+    color:#595972;
 
     font-weight:600;
 
@@ -150,56 +150,65 @@ body{
 
 }
 
-/* ----------------------------- */
-/* DESCRIPTION */
-/* ----------------------------- */
+
+/* ===========================
+   DESCRIPTION
+=========================== */
 
 .description{
 
-    width:78%;
+    width:75%;
 
     margin:auto;
+
+    color:#707082;
 
     font-size:24px;
 
     line-height:1.5;
 
-    color:#67677a;
-
     margin-bottom:35px;
 
 }
 
-/* ----------------------------- */
-/* LABELS */
-/* ----------------------------- */
 
-strong{
+/* ===========================
+   LABELS
+=========================== */
 
-    font-size:18px;
+p{
 
-    color:#444;
+    font-size:24px;
+
+    font-weight:600;
+
+    color:#4f4f4f;
+
+    margin-top:28px;
 
 }
 
-/* ----------------------------- */
-/* INPUTS */
-/* ----------------------------- */
+
+/* ===========================
+   INPUTS
+=========================== */
 
 input,
 select{
 
     width:380px;
 
-    padding:14px;
+    padding:15px;
 
     margin-top:12px;
 
-    border-radius:14px;
+    border-radius:15px;
 
-    border:2px solid #ffc4dc;
+    border:2px solid #ffc5da;
 
-    font-size:18px;
+    outline:none;
+
+    font-size:20px;
 
     font-family:"Cormorant Garamond",serif;
 
@@ -210,31 +219,28 @@ select{
 input:focus,
 select:focus{
 
-    outline:none;
+    border-color:#ef8db5;
 
-    border-color:#f48cb9;
-
-    box-shadow:0 0 12px rgba(245,141,183,.2);
+    box-shadow:0 0 12px rgba(239,141,181,.25);
 
 }
 
-/* ----------------------------- */
-/* BUTTONS */
-/* ----------------------------- */
+
+/* ===========================
+   BUTTONS
+=========================== */
 
 button{
 
-    margin:18px 10px;
+    background:#f4a5c3;
 
-    padding:15px 30px;
+    color:white;
 
     border:none;
 
-    border-radius:35px;
+    border-radius:40px;
 
-    background:#f4a2c3;
-
-    color:white;
+    padding:15px 35px;
 
     font-size:18px;
 
@@ -242,39 +248,41 @@ button{
 
     cursor:pointer;
 
+    margin:25px 10px;
+
     transition:.3s;
 
 }
 
 button:hover{
 
-    background:#ed8eb5;
+    background:#ea89b1;
 
     transform:translateY(-3px);
 
 }
 
-/* ----------------------------- */
-/* SECTION HEADINGS */
-/* ----------------------------- */
+
+/* ===========================
+   SECTION HEADINGS
+=========================== */
 
 h3{
 
-    margin-top:45px;
-
-    margin-bottom:15px;
+    font-family:"Prata",serif;
 
     color:#d86b97;
 
     font-size:32px;
 
-    font-family:"Prata",serif;
+    margin-top:45px;
 
 }
 
-/* ----------------------------- */
-/* OUTPUT */
-/* ----------------------------- */
+
+/* ===========================
+   OUTPUTS
+=========================== */
 
 #output,
 #score,
@@ -285,13 +293,14 @@ h3{
 
     color:#555;
 
-    line-height:1.6;
+    line-height:1.7;
 
 }
 
-/* ----------------------------- */
-/* TASK LIST */
-/* ----------------------------- */
+
+/* ===========================
+   TASK LIST
+=========================== */
 
 ul{
 
@@ -303,35 +312,38 @@ ul{
 
 li{
 
-    background:#fff4f8;
-
-    border:1px solid #ffd3e3;
-
-    padding:15px;
-
-    width:80%;
+    width:82%;
 
     margin:15px auto;
 
+    background:#fff5f8;
+
+    border:1px solid #ffd8e8;
+
     border-radius:15px;
+
+    padding:16px;
 
     text-align:left;
 
+    font-size:20px;
+
 }
 
-/* ----------------------------- */
-/* PROGRESS BAR */
-/* ----------------------------- */
+
+/* ===========================
+   PROGRESS BAR
+=========================== */
 
 .progress-container{
 
     width:80%;
 
-    height:14px;
+    height:18px;
 
-    margin:25px auto;
+    background:#ffe3ef;
 
-    background:#f8dce7;
+    margin:30px auto;
 
     border-radius:30px;
 
@@ -341,36 +353,35 @@ li{
 
 #progressBar{
 
-    width:0;
+    width:0%;
 
     height:100%;
 
-    background:#f4a2c3;
+    background:#ee91b8;
 
     transition:.5s;
 
 }
 
-/* ----------------------------- */
-/* FOOTER */
-/* ----------------------------- */
+
+/* ===========================
+   FOOTER
+=========================== */
 
 footer{
 
-    margin-top:50px;
+    margin-top:60px;
 
     color:#777;
-
-    font-size:18px;
 
 }
 
 footer hr{
 
-    margin-bottom:20px;
-
     border:none;
 
-    border-top:1px solid #eee;
+    border-top:1px solid #f0d4e0;
+
+    margin-bottom:25px;
 
 }

@@ -55,7 +55,7 @@ function getAdvice() {
 
     else if (task.includes("exercise") || task.includes("workout")) {
 
-        advice = "💪 Great choice! Exercise improves both physical and mental health.";
+        advice = "Great choice! Exercise improves both physical and mental health. 💪";
 
         productivityScore = 80;
 
@@ -71,7 +71,7 @@ function getAdvice() {
 
     else {
 
-        advice = "✅ Stay organised and complete one task before starting another.";
+        advice = "Stay organised and complete one task before starting another.✅ ";
 
         productivityScore = 65;
 
@@ -82,13 +82,13 @@ function getAdvice() {
 
     if (time === "morning") {
 
-        advice += "<br><br>🌞 Since you are a morning person, complete your important work before noon.";
+        advice += "<br><br> Since you are a morning person, complete your important work before noon.🌞";
 
     }
 
     else {
 
-        advice += "<br><br>🌙 Since you are an evening person, start with lighter tasks and do difficult work later.";
+        advice += "<br><br> Since you are an evening person, start with lighter tasks and do difficult work later.🌙 ";
 
     }
 
@@ -97,7 +97,7 @@ function getAdvice() {
 
     if (distraction === "yes") {
 
-        advice += "<br><br>📵 Try keeping your phone away for at least 20 minutes while working.";
+        advice += "<br><br>Try keeping your phone away for at least 20 minutes while working.📵";
 
         productivityScore -= 5;
 
@@ -113,25 +113,25 @@ function getAdvice() {
 
     if (productivityScore >= 80) {
 
-        message = "🌟 Excellent! You're having a productive day.";
+        message = "Excellent! You're having a productive day.🌟";
 
     }
 
     else if (productivityScore >= 60) {
 
-        message = "😊 Good job! Keep improving every day.";
+        message = "Good job! Keep improving every day.😊";
 
     }
 
     else {
 
-        message = "💪 Keep going. Small progress is still progress.";
+        message = "Keep going. Small progress is still progress.💪";
 
     }
 
 
     score.innerHTML =
-        "⭐ Productivity Score: <b>" +
+        "Productivity Score: <b>⭐ " +
         productivityScore +
         "/100</b><br><br>" +
         message;
@@ -142,21 +142,21 @@ function getAdvice() {
     if (time === "morning" && distraction === "no") {
 
         habit.innerHTML =
-            "🧠 <b>AI Observation:</b> You seem to work best in the morning. Try planning your important tasks before lunch.";
+            "<b>AI Observation:</b> You seem to work best in the morning. Try planning your important tasks before lunch.🧠";
 
     }
 
     else if (time === "evening" && distraction === "no") {
 
         habit.innerHTML =
-            "🧠 <b>AI Observation:</b> You appear to be more productive in the evening. Schedule difficult work later in the day.";
+            "<b>AI Observation:</b> You appear to be more productive in the evening. Schedule difficult work later in the day.🧠";
 
     }
 
     else {
 
         habit.innerHTML =
-            "🧠 <b>AI Observation:</b> You often experience distractions. Reducing screen time while working may improve your productivity.";
+            "<b>AI Observation:</b> You often experience distractions. Reducing screen time while working may improve your productivity.🧠";
 
     }
 
@@ -404,23 +404,23 @@ function reflection() {
 
     reflectionOutput.innerHTML =
 
-    "<b>📅 Date:</b> " + today +
+    "<b>Date:</b>📅" + today +
 
     "<br><br>" +
 
-    "<b>📋 Total Tasks:</b> " + totalTasks +
+    "<b>Total Tasks:</b>📋 " + totalTasks +
 
     "<br>" +
 
-    "<b>✅ Completed:</b> " + completedTasks +
+    "<b>Completed:</b>✅" + completedTasks +
 
     "<br>" +
 
-    "<b>📝 Pending:</b> " + pendingTasks +
+    "<b>Pending:</b>📝 " + pendingTasks +
 
     "<br><br>" +
 
-    "<b>⭐ Productivity Score:</b> " +
+    "<b>Productivity Score:</b>⭐  " +
 
     productivityScore +
 
@@ -428,19 +428,19 @@ function reflection() {
 
     "<br><br>" +
 
-    "<b>🤖 Coach's Feedback:</b><br>" +
+    "<b>Coach's Feedback:</b><br>🤖 " +
 
     coachMessage +
 
     "<br><br>" +
 
-    "<b>💡 Suggestion for Tomorrow:</b><br>" +
+    "<b>Suggestion for Tomorrow:</b><br>💡 " +
 
     suggestion +
 
     "<br><br>" +
 
-    "<b>📖 Quote of the Day:</b><br>" +
+    "<b>Quote of the Day:</b><br>📖 " +
 
     "\"" + randomQuote + "\"";
 

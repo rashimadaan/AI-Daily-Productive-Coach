@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
 
-/* ===========================
+/* =====================================
    AI DAILY PRODUCTIVE COACH
-   Class 12 AI Capstone
-=========================== */
+   By Rashi Madaan
+===================================== */
 
 *{
     margin:0;
@@ -13,267 +13,285 @@
 }
 
 body{
-    padding:35px 0;
+
+    background:linear-gradient(135deg,#fff8fb,#ffeef5,#fff9fc);
+
     font-family:"Cormorant Garamond",serif;
 
-    background:linear-gradient(
-        135deg,
-        #fff8fb 0%,
-        #ffeef5 45%,
-        #fff9fc 100%
-    );
+    padding:40px;
 
-    background-attachment:fixed;
 }
 
-/* ----------------------- */
-/* Top Heading */
-/* ----------------------- */
+/* ----------------------------- */
+/* CLASS 12 AI CAPSTONE PROJECT */
+/* ----------------------------- */
 
-body::before{
-
-    content:"CLASS 12 AI CAPSTONE PROJECT";
-
-    display:block;
-
-    text-align:left;
+.capstone-title{
 
     width:950px;
 
-    margin:0 auto 25px auto;
+    margin:0 auto 22px;
 
-    color:#d8578d;
+    text-align:left;
+
+    font-family:Arial,sans-serif;
 
     font-size:18px;
 
-    letter-spacing:3px;
-
     font-weight:bold;
 
-    font-family:Arial, sans-serif;
+    letter-spacing:4px;
+
+    color:#d86b97;
 
 }
+
+/* ----------------------------- */
+/* MAIN CARD */
+/* ----------------------------- */
 
 .container{
-    width: 82%;
-    max-width: 850px;
-    margin: auto;
-    background: white;
-    padding: 40px 50px;
-    border-radius: 28px;
-    text-align: center;
-    box-shadow: 0 18px 45px rgba(236,169,196,.18);
-}
 
-/* ----------------------- */
-/* Main Heading */
-/* ----------------------- */
+    width:90%;
 
-.title{
+    max-width:950px;
 
-    font-family: "Prata", serif;
+    margin:auto;
 
-    font-size: 82px;
+    background:white;
 
-    font-weight: 400;
+    border-radius:30px;
 
-   color:#d96b9d;
+    padding:60px;
 
-    letter-spacing: -1px;
+    text-align:center;
 
-    line-height: 1;
-
-    white-space: nowrap;
-
-    margin: 0;
+    box-shadow:0 20px 45px rgba(236,169,196,.22);
 
 }
-/* ----------------------- */
-/* Divider */
-/* ----------------------- */
 
-/* ----------------------- */
-/* Elegant Divider */
-/* ----------------------- */
+/* ----------------------------- */
+/* MAIN HEADING */
+/* ----------------------------- */
+
+.main-title{
+
+    font-family:"Prata",serif;
+
+    font-size:68px;
+
+    font-weight:400;
+
+    color:#d96b9d;
+
+    line-height:1.1;
+
+    letter-spacing:-1px;
+
+    white-space:nowrap;
+
+    margin-bottom:12px;
+
+}
+
+/* ----------------------------- */
+/* DECORATION */
+/* ----------------------------- */
 
 .divider{
+
     display:flex;
+
     justify-content:center;
+
     align-items:center;
+
     gap:14px;
-    margin:18px 0 28px;
+
+    margin-bottom:35px;
+
 }
 
 .line{
-    width:90px;
+
+    width:95px;
+
     height:1px;
-    background:#e8b4c8;
-    border-radius:50px;
+
+    background:#efb2cb;
+
 }
 
-.star{
-    font-size:12px;
-    color:#e8b4c8;
-    line-height:1;
+.diamond{
+
+    width:8px;
+
+    height:8px;
+
+    background:#efb2cb;
+
+    transform:rotate(45deg);
+
 }
 
-/* ----------------------- */
-/* Subtitle */
-/* ----------------------- */
+/* ----------------------------- */
+/* SUBTITLE */
+/* ----------------------------- */
 
 .subtitle{
-    font-size: 24px;
-    color: #55556a;
-    font-weight: 600;
-    margin-bottom: 15px;
+
+    font-size:32px;
+
+    color:#565674;
+
+    font-weight:600;
+
+    margin-bottom:18px;
+
 }
 
-/* ----------------------- */
-/* Description */
-/* ----------------------- */
+/* ----------------------------- */
+/* DESCRIPTION */
+/* ----------------------------- */
 
 .description{
-    width: 70%;
-    margin: auto;
-    margin-bottom: 30px;
-    font-size: 18px;
-    color: #6b6b77;
-    line-height: 1.5;
+
+    width:78%;
+
+    margin:auto;
+
+    font-size:24px;
+
+    line-height:1.5;
+
+    color:#67677a;
+
+    margin-bottom:35px;
+
 }
 
-/* ----------------------- */
-/* Labels */
-/* ----------------------- */
+/* ----------------------------- */
+/* LABELS */
+/* ----------------------------- */
 
+strong{
 
-  p{
-    font-family: Arial, sans-serif;
-    font-size: 17px;
-    font-weight: 600;
-    color: #555;
-    margin-top: 22px;
-    margin-bottom: 8px;
+    font-size:18px;
+
+    color:#444;
+
 }
 
-/* ----------------------- */
-/* Inputs */
-/* ----------------------- */
+/* ----------------------------- */
+/* INPUTS */
+/* ----------------------------- */
 
 input,
 select{
 
-    width:340px;
+    width:380px;
 
-    padding:14px 18px;
+    padding:14px;
 
-    border-radius:12px;
+    margin-top:12px;
 
-    border:1.5px solid #f1bfd4;
+    border-radius:14px;
 
-    background:#fffdfd;
+    border:2px solid #ffc4dc;
 
-    font-size:16px;
+    font-size:18px;
 
-    font-family:Arial,sans-serif;
-
-    color:#444;
+    font-family:"Cormorant Garamond",serif;
 
     transition:.3s;
-
-    outline:none;
 
 }
 
 input:focus,
 select:focus{
 
-    border-color:#f58db7;
+    outline:none;
 
-    box-shadow:0 0 12px rgba(245,141,183,.25);
+    border-color:#f48cb9;
+
+    box-shadow:0 0 12px rgba(245,141,183,.2);
 
 }
 
-/* ----------------------- */
-/* Buttons */
-/* ----------------------- */
+/* ----------------------------- */
+/* BUTTONS */
+/* ----------------------------- */
 
 button{
 
-    background:#ef9fc0;
+    margin:18px 10px;
 
-    color:white;
+    padding:15px 30px;
 
     border:none;
 
-    border-radius:50px;
+    border-radius:35px;
 
-    padding:14px 30px;
+    background:#f4a2c3;
 
-    font-size:16px;
+    color:white;
 
-    font-family:Arial,sans-serif;
+    font-size:18px;
 
     font-weight:bold;
 
     cursor:pointer;
 
-    margin:18px 8px;
-
     transition:.3s;
 
-    box-shadow:0 8px 20px rgba(239,159,192,.25);
-
 }
 
 button:hover{
 
-    background:#e98ab2;
+    background:#ed8eb5;
 
-    transform:translateY(-2px);
-
-}
-
-button:hover{
-
-    background:#ef8eb5;
-
-    transform:translateY(-2px);
+    transform:translateY(-3px);
 
 }
 
-/* ----------------------- */
-/* Output */
-/* ----------------------- */
+/* ----------------------------- */
+/* SECTION HEADINGS */
+/* ----------------------------- */
 
+h3{
 
-  h3{
-    font-family: "Cormorant Garamond", serif;
-    font-size: 32px;
-    font-weight: 600;
-    color: #b65d85;
-    margin-top: 42px;
-    margin-bottom: 12px;
-    letter-spacing: 0.5px;
+    margin-top:45px;
+
+    margin-bottom:15px;
+
+    color:#d86b97;
+
+    font-size:32px;
+
+    font-family:"Prata",serif;
+
 }
+
+/* ----------------------------- */
+/* OUTPUT */
+/* ----------------------------- */
 
 #output,
 #score,
 #habit,
 #reflectionOutput{
 
-    margin-top:20px;
-
-    font-size:20px;
-
-    line-height:1.6;
+    font-size:22px;
 
     color:#555;
 
+    line-height:1.6;
+
 }
 
-/* ----------------------- */
-/* Task List */
-/* ----------------------- */
+/* ----------------------------- */
+/* TASK LIST */
+/* ----------------------------- */
 
 ul{
 
@@ -285,20 +303,74 @@ ul{
 
 li{
 
+    background:#fff4f8;
+
+    border:1px solid #ffd3e3;
+
+    padding:15px;
+
     width:80%;
 
     margin:15px auto;
 
-    padding:15px;
-
-    border-radius:14px;
-
-    background:#fff4f8;
-
-    border:1px solid #ffd7e6;
-
-    font-size:19px;
+    border-radius:15px;
 
     text-align:left;
+
+}
+
+/* ----------------------------- */
+/* PROGRESS BAR */
+/* ----------------------------- */
+
+.progress-container{
+
+    width:80%;
+
+    height:14px;
+
+    margin:25px auto;
+
+    background:#f8dce7;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+}
+
+#progressBar{
+
+    width:0;
+
+    height:100%;
+
+    background:#f4a2c3;
+
+    transition:.5s;
+
+}
+
+/* ----------------------------- */
+/* FOOTER */
+/* ----------------------------- */
+
+footer{
+
+    margin-top:50px;
+
+    color:#777;
+
+    font-size:18px;
+
+}
+
+footer hr{
+
+    margin-bottom:20px;
+
+    border:none;
+
+    border-top:1px solid #eee;
 
 }

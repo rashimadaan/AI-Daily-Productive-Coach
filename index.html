@@ -1,23 +1,9 @@
-<p style="color:#d63384;font-weight:bold;letter-spacing:2px;">
-<p class="capstone-title">CLASS 12 AI CAPSTONE PROJECT</p>
-.capstone-title{
-    width: 850px;
-    margin: 0 auto 25px;
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 4px;
-    color: #d86b97;
-    text-align: left;
-}
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>AI Daily Productive Coach</title>
 
     <link rel="stylesheet" href="style.css">
@@ -25,10 +11,14 @@
 
 <body>
 
+<p class="capstone-title">
+    CLASS 12 AI CAPSTONE PROJECT
+</p>
+
 <div class="container">
 
 <h1 class="main-title">
-AI Daily Productive Coach
+    AI Daily Productive Coach
 </h1>
 
 <div class="divider">
@@ -36,67 +26,11 @@ AI Daily Productive Coach
     <span class="diamond"></span>
     <span class="line"></span>
 </div>
+
 <p class="subtitle">
-Your Personal Productivity Assistant
+    Your Personal Productivity Assistant
 </p>
 
 <p class="description">
-Plan your tasks, stay focused, track your habits, and improve your productivity every day with AI-powered suggestions.
+    Plan your tasks, stay focused, track your habits, and improve your productivity every day with AI-powered suggestions.
 </p>
-
- <p><strong>Select your time preference</strong></p>
-<select id="time">
-  <option value="morning">Morning Person</option>
-  <option value="evening">Evening Person</option>
-</select>
-
-<p><strong>Are you feeling distracted today?</strong></p>
-<select id="distraction">
-  <option value="no">No</option>
-  <option value="yes">Yes</option>
-</select>
-
-<p><strong>Enter your task for today</strong></p>
-<input type="text" id="task" placeholder="Enter your task">
-<br><br>
-
-<button onclick="getAdvice()">Get AI Advice</button>
-<button onclick="addTask()">Add Task</button>
-
-<h3>🤖 AI Coach Recommendation</h3>
-<p id="output"></p>
-
-<h3>📈 Productivity Analysis</h3>
-<p id="score"></p>
-
-<h3>📋 Smart Task Planner</h3>
-<ul id="taskList"></ul>
-
-<h3>🌙 AI Daily Review</h3>
-
-<button onclick="reflection()">Generate AI Daily Review</button>
-
-<p id="reflectionOutput"></p>
-
-<h3>🧠 Habit Learning</h3>
-<p id="habit"></p>
-    <div class="progress-container">
-    <div id="progressBar"></div>
-</div>
-
-<footer>
-    <hr>
-    <p>
-        🤖 AI Daily Productive Coach <br>
-        Developed by <b>Rashi Madaan</b><br>
-        Class 12 AI Capstone Project
-    </p>
-</footer>
-</div>
-
-<script src="script.js"></script>
-
-</body>
-
-</html>
-

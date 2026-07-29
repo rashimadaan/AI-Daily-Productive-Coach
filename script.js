@@ -131,7 +131,7 @@ function getAdvice() {
 
 
     score.innerHTML =
-        "Productivity Score: <b>⭐ " +
+        "⭐ Productivity Score: <b> " +
         productivityScore +
         "/100</b><br><br>" +
         message;
@@ -404,23 +404,23 @@ function reflection() {
 
     reflectionOutput.innerHTML =
 
-    "<b>Date:</b>📅" + today +
+    "📅 <b>Date:</b>" + today +
 
     "<br><br>" +
 
-    "<b>Total Tasks:</b>📋 " + totalTasks +
+    "📋 <b>Total Tasks:</b> " + totalTasks +
 
     "<br>" +
 
-    "<b>Completed:</b>✅" + completedTasks +
+    "✅ <b>Completed:</b>" + completedTasks +
 
     "<br>" +
 
-    "<b>Pending:</b>📝 " + pendingTasks +
+    "📝 <b>Pending:</b> " + pendingTasks +
 
     "<br><br>" +
 
-    "<b>Productivity Score:</b>⭐  " +
+    "⭐ <b>Productivity Score:</b>  " +
 
     productivityScore +
 

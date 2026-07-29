@@ -57,23 +57,14 @@ body::before{
 /* ----------------------- */
 
 .container{
-
-    width:88%;
-
-    max-width:900px;
-
-    margin:auto;
-
-    background:white;
-
-    padding:45px 55px;
-
-    border-radius:28px;
-
-    text-align:center;
-
-    box-shadow:0 18px 45px rgba(236,169,196,.18);
-
+    width: 82%;
+    max-width: 850px;
+    margin: auto;
+    background: white;
+    padding: 40px 50px;
+    border-radius: 28px;
+    text-align: center;
+    box-shadow: 0 18px 45px rgba(236,169,196,.18);
 }
 
 /* ----------------------- */
@@ -81,23 +72,15 @@ body::before{
 /* ----------------------- */
 
 .title{
-
-    font-family:"Prata",serif;
-
-    font-size:74px;
-
-    color:#d96a99;
-
-    font-weight:400;
-
-    line-height:1.05;
-
-    letter-spacing:-1px;
-
-    white-space:nowrap;
-
+    font-family: "Prata", serif;
+    font-size: 64px;
+    color: #d96a99;
+    font-weight: 400;
+    line-height: 1.05;
+    letter-spacing: -1px;
+    white-space: nowrap;
+    margin-bottom: 8px;
 }
-
 /* ----------------------- */
 /* Divider */
 /* ----------------------- */
@@ -132,15 +115,10 @@ body::before{
 /* ----------------------- */
 
 .subtitle{
-
-    font-size:28px;
-
-    color:#55556a;
-
-    font-weight:600;
-
-    margin-bottom:18px;
-
+    font-size: 24px;
+    color: #55556a;
+    font-weight: 600;
+    margin-bottom: 15px;
 }
 
 /* ----------------------- */
@@ -148,37 +126,26 @@ body::before{
 /* ----------------------- */
 
 .description{
-
-    width:75%;
-
-    margin:auto;
-
-    margin-bottom:35px;
-
-    font-size:20px;
-
-    color:#6b6b77;
-
-    line-height:1.5;
-
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #6b6b77;
+    line-height: 1.5;
 }
 
 /* ----------------------- */
 /* Labels */
 /* ----------------------- */
 
-p{
 
-    font-size:18px;
-
-    font-weight:700;
-
-    color:#4b4b4b;
-
-    margin-top:24px;
-
-    margin-bottom:10px;
-
+  p{
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #555;
+    margin-top: 22px;
+    margin-bottom: 8px;
 }
 
 /* ----------------------- */
@@ -188,17 +155,21 @@ p{
 input,
 select{
 
-    width:380px;
+    width:340px;
 
-    padding:14px;
+    padding:14px 18px;
 
-    border-radius:14px;
+    border-radius:12px;
 
-    border:2px solid #ffc8dc;
+    border:1.5px solid #f1bfd4;
 
-    font-size:20px;
+    background:#fffdfd;
 
-    font-family:"Cormorant Garamond",serif;
+    font-size:16px;
+
+    font-family:Arial,sans-serif;
+
+    color:#444;
 
     transition:.3s;
 
@@ -221,17 +192,19 @@ select:focus{
 
 button{
 
-    background:#f7abc8;
+    background:#ef9fc0;
 
     color:white;
 
     border:none;
 
-    border-radius:35px;
+    border-radius:50px;
 
-    padding:14px 32px;
+    padding:14px 30px;
 
-    font-size:18px;
+    font-size:16px;
+
+    font-family:Arial,sans-serif;
 
     font-weight:bold;
 
@@ -240,6 +213,16 @@ button{
     margin:18px 8px;
 
     transition:.3s;
+
+    box-shadow:0 8px 20px rgba(239,159,192,.25);
+
+}
+
+button:hover{
+
+    background:#e98ab2;
+
+    transform:translateY(-2px);
 
 }
 
@@ -255,16 +238,15 @@ button:hover{
 /* Output */
 /* ----------------------- */
 
-h3{
 
-    font-family:"Prata",serif;
-
-    color:#d86b97;
-
-    font-size:30px;
-
-    margin-top:45px;
-
+  h3{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #b65d85;
+    margin-top: 42px;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
 }
 
 #output,

@@ -1,106 +1,319 @@
-/* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:ital,wght@1,700&display=swap');
-<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+
+/* ===========================
+   AI DAILY PRODUCTIVE COACH
+   Class 12 AI Capstone
+=========================== */
+
 body{
-    font-family:'Poppins',sans-serif;
-    background:linear-gradient(135deg,#ffeef6,#e9f5ff);
     margin:0;
-    padding:40px;
+    padding:50px 0;
+    font-family:"Cormorant Garamond", serif;
+
+    background:linear-gradient(
+        135deg,
+        #fff8fb 0%,
+        #ffeef5 40%,
+        #fff9fc 100%
+    );
+
+    background-attachment:fixed;
 }
+
+/* White Card */
 
 .container{
-    max-width:700px;
+
+    width:90%;
+    max-width:950px;
+
     margin:auto;
-    background:rgba(255,255,255,0.92);
-    backdrop-filter:blur(12px);
-    border-radius:25px;
-    padding:45px;
-    box-shadow:0 10px 35px rgba(0,0,0,0.12);
+
+    background:white;
+
+    padding:55px;
+
+    border-radius:30px;
+
     text-align:center;
-}
-    h1{
-    font-family: 'Lobster Two', cursive;
-    font-size: 58px;
-    color: #d45d95;
-    font-weight: bold;
-    margin-bottom: 10px;
+
+    box-shadow:0 15px 45px rgba(236,169,196,.25);
+
 }
 
-h3{
-    font-family:'Playfair Display',serif;
-    color:#d63384;
-    font-size:26px;
-    margin-top:35px;
+
+/* Small Top Text */
+
+body::before{
+
+    content:"CLASS 12 AI CAPSTONE PROJECT";
+
+    display:block;
+
+    text-align:left;
+
+    width:950px;
+
+    margin:0 auto 25px auto;
+
+    color:#d8578d;
+
+    font-size:18px;
+
+    letter-spacing:3px;
+
+    font-weight:bold;
+
+    font-family:Arial, sans-serif;
+
 }
+
+
+/* Main Heading */
+
+.main-title{
+
+    font-family:"Prata", serif;
+
+    font-size:72px;
+
+    color:#d86b97;
+
+    font-weight:400;
+
+    margin:0;
+
+    line-height:1.1;
+
+}
+
+
+/* Decorative Divider */
+
+.divider{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:18px;
+
+    margin:22px 0;
+
+}
+
+.line{
+
+    width:120px;
+
+    height:2px;
+
+    background:#f4a6c3;
+
+}
+
+.diamond{
+
+    width:14px;
+
+    height:14px;
+
+    background:#f4a6c3;
+
+    transform:rotate(45deg);
+
+}
+
+
+/* Subtitle */
+
+.subtitle{
+
+    font-family:"Cormorant Garamond", serif;
+
+    font-size:34px;
+
+    color:#55556a;
+
+    margin-top:18px;
+
+    margin-bottom:15px;
+
+}
+
+
+/* Description */
+
+.description{
+
+    font-size:24px;
+
+    color:#6c6c7a;
+
+    width:75%;
+
+    margin:auto;
+
+    line-height:1.5;
+
+    margin-bottom:35px;
+
+}
+
+
+/* Labels */
 
 p{
-    font-size:17px;
-    color:#555;
-    font-weight:500;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    color:#4f4f4f;
+
+    margin-top:30px;
+
 }
+
+
+/* Inputs */
 
 input,
 select{
-    width:280px;
-    padding:13px;
-    margin:12px;
-    border:2px solid #ffd6e8;
-    border-radius:12px;
-    font-size:16px;
-    background:white;
+
+    width:360px;
+
+    padding:16px;
+
+    border-radius:15px;
+
+    border:2px solid #ffc5da;
+
+    font-size:20px;
+
+    font-family:"Cormorant Garamond", serif;
+
+    outline:none;
+
     transition:.3s;
+
 }
 
 input:focus,
 select:focus{
-    outline:none;
-    border-color:#ff9fc7;
-    box-shadow:0 0 10px rgba(255,160,190,.4);
+
+    border-color:#f58db7;
+
+    box-shadow:0 0 15px rgba(245,141,183,.25);
+
 }
 
+
+/* Buttons */
+
 button{
-    background:#ffb6c1;
+
+    background:#f7a8c7;
+
     color:white;
+
     border:none;
-    border-radius:30px;
-    padding:14px 28px;
-    font-size:16px;
-    font-weight:600;
+
+    border-radius:40px;
+
+    padding:15px 35px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
     cursor:pointer;
+
+    margin:18px 10px;
+
     transition:.3s;
-    margin:10px;
+
 }
 
 button:hover{
-    background:#ff8fb3;
+
+    background:#ef8db5;
+
     transform:translateY(-3px);
-    box-shadow:0 8px 18px rgba(255,182,193,.4);
+
 }
+
+
+/* Output Sections */
+
+h3{
+
+    font-family:"Prata", serif;
+
+    color:#d86b97;
+
+    font-size:34px;
+
+    margin-top:45px;
+
+}
+
 
 #output,
 #score,
-#reflectionOutput,
-#habit{
-    background:#fff5fa;
-    border-left:5px solid #ffb6c1;
-    border-radius:12px;
-    padding:18px;
-    margin-top:18px;
-    font-size:16px;
-    font-weight:500;
+#habit,
+#reflectionOutput{
+
+    font-size:22px;
+
+    color:#555;
+
+    line-height:1.6;
+
+    margin-top:20px;
+
 }
 
+
+/* Task List */
+
 ul{
+
     list-style:none;
+
     padding:0;
+
 }
 
 li{
-    background:#fff5fa;
-    margin:12px auto;
+
+    width:80%;
+
+    margin:15px auto;
+
     padding:15px;
-    border-radius:12px;
-    width:90%;
-    font-weight:500;
-    box-shadow:0 5px 12px rgba(0,0,0,.05);
+
+    border-radius:15px;
+
+    background:#fff4f8;
+
+    border:1px solid #ffd4e4;
+
+    text-align:left;
+
+    font-size:20px;
+
+}
+
+
+/* Smooth */
+
+*{
+
+    box-sizing:border-box;
+
+    scroll-behavior:smooth;
+
 }

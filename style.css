@@ -102,40 +102,29 @@ body::before{
 /* Divider */
 /* ----------------------- */
 
+/* ----------------------- */
+/* Elegant Divider */
+/* ----------------------- */
+
 .divider{
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
     gap:14px;
-
-    margin:20px 0 28px;
-
+    margin:18px 0 28px;
 }
 
 .line{
-
-    width:128px;
-
+    width:90px;
     height:1px;
-
-    background:#f3a4c3;
-
+    background:#e8b4c8;
+    border-radius:50px;
 }
 
-.diamond{
-
-    width:8px;
-
-    height:8px;
-
-    background:#f3a4c3;
-
-    transform:rotate(45deg);
-
+.star{
+    font-size:12px;
+    color:#e8b4c8;
+    line-height:1;
 }
 
 /* ----------------------- */

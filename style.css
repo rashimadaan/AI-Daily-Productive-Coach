@@ -5,44 +5,30 @@
    Class 12 AI Capstone
 =========================== */
 
-body{
+*{
     margin:0;
-    padding:50px 0;
-    font-family:"Cormorant Garamond", serif;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    padding:35px 0;
+    font-family:"Cormorant Garamond",serif;
 
     background:linear-gradient(
         135deg,
         #fff8fb 0%,
-        #ffeef5 40%,
+        #ffeef5 45%,
         #fff9fc 100%
     );
 
     background-attachment:fixed;
 }
 
-/* White Card */
-
-.container{
-
-    width:90%;
-    max-width:950px;
-
-    margin:auto;
-
-    background:white;
-
-    padding:55px;
-
-    border-radius:30px;
-
-    text-align:center;
-
-    box-shadow:0 15px 45px rgba(236,169,196,.25);
-
-}
-
-
-/* Small Top Text */
+/* ----------------------- */
+/* Top Heading */
+/* ----------------------- */
 
 body::before{
 
@@ -50,45 +36,71 @@ body::before{
 
     display:block;
 
-    text-align:left;
+    width:900px;
 
-    width:950px;
+    margin:0 auto 30px;
 
-    margin:0 auto 25px auto;
+    color:#d95d92;
 
-    color:#d8578d;
+    font-family:Arial,sans-serif;
 
     font-size:18px;
 
-    letter-spacing:3px;
-
     font-weight:bold;
 
-    font-family:Arial, sans-serif;
+    letter-spacing:4px;
 
 }
 
+/* ----------------------- */
+/* Card */
+/* ----------------------- */
 
+.container{
+
+    width:88%;
+
+    max-width:900px;
+
+    margin:auto;
+
+    background:white;
+
+    padding:45px 55px;
+
+    border-radius:28px;
+
+    text-align:center;
+
+    box-shadow:0 18px 45px rgba(236,169,196,.18);
+
+}
+
+/* ----------------------- */
 /* Main Heading */
+/* ----------------------- */
 
-.main-title{
+.title{
 
-    font-family:"Prata", serif;
+    font-family:"Prata",serif;
 
-    font-size:72px;
+    font-size:74px;
 
-    color:#d86b97;
+    color:#d96a99;
 
     font-weight:400;
 
-    margin:0;
+    line-height:1.05;
 
-    line-height:1.1;
+    letter-spacing:-1px;
+
+    white-space:nowrap;
 
 }
 
-
-/* Decorative Divider */
+/* ----------------------- */
+/* Divider */
+/* ----------------------- */
 
 .divider{
 
@@ -98,106 +110,110 @@ body::before{
 
     align-items:center;
 
-    gap:18px;
+    gap:14px;
 
-    margin:22px 0;
+    margin:20px 0 28px;
 
 }
 
 .line{
 
-    width:120px;
+    width:128px;
 
-    height:2px;
+    height:1px;
 
-    background:#f4a6c3;
+    background:#f3a4c3;
 
 }
 
 .diamond{
 
-    width:14px;
+    width:8px;
 
-    height:14px;
+    height:8px;
 
-    background:#f4a6c3;
+    background:#f3a4c3;
 
     transform:rotate(45deg);
 
 }
 
-
+/* ----------------------- */
 /* Subtitle */
+/* ----------------------- */
 
 .subtitle{
 
-    font-family:"Cormorant Garamond", serif;
-
-    font-size:34px;
+    font-size:28px;
 
     color:#55556a;
 
-    margin-top:18px;
+    font-weight:600;
 
-    margin-bottom:15px;
+    margin-bottom:18px;
 
 }
 
-
+/* ----------------------- */
 /* Description */
+/* ----------------------- */
 
 .description{
-
-    font-size:24px;
-
-    color:#6c6c7a;
 
     width:75%;
 
     margin:auto;
 
-    line-height:1.5;
-
     margin-bottom:35px;
+
+    font-size:20px;
+
+    color:#6b6b77;
+
+    line-height:1.5;
 
 }
 
-
+/* ----------------------- */
 /* Labels */
+/* ----------------------- */
 
 p{
 
-    font-size:24px;
+    font-size:18px;
 
     font-weight:700;
 
-    color:#4f4f4f;
+    color:#4b4b4b;
 
-    margin-top:30px;
+    margin-top:24px;
+
+    margin-bottom:10px;
 
 }
 
-
+/* ----------------------- */
 /* Inputs */
+/* ----------------------- */
 
 input,
 select{
 
-    width:360px;
+    width:380px;
 
-    padding:16px;
+    padding:14px;
 
-    border-radius:15px;
+    border-radius:14px;
 
-    border:2px solid #ffc5da;
+    border:2px solid #ffc8dc;
 
     font-size:20px;
 
-    font-family:"Cormorant Garamond", serif;
-
-    outline:none;
+    font-family:"Cormorant Garamond",serif;
 
     transition:.3s;
+
+    outline:none;
 
 }
 
@@ -206,24 +222,25 @@ select:focus{
 
     border-color:#f58db7;
 
-    box-shadow:0 0 15px rgba(245,141,183,.25);
+    box-shadow:0 0 12px rgba(245,141,183,.25);
 
 }
 
-
+/* ----------------------- */
 /* Buttons */
+/* ----------------------- */
 
 button{
 
-    background:#f7a8c7;
+    background:#f7abc8;
 
     color:white;
 
     border:none;
 
-    border-radius:40px;
+    border-radius:35px;
 
-    padding:15px 35px;
+    padding:14px 32px;
 
     font-size:18px;
 
@@ -231,7 +248,7 @@ button{
 
     cursor:pointer;
 
-    margin:18px 10px;
+    margin:18px 8px;
 
     transition:.3s;
 
@@ -239,45 +256,46 @@ button{
 
 button:hover{
 
-    background:#ef8db5;
+    background:#ef8eb5;
 
-    transform:translateY(-3px);
+    transform:translateY(-2px);
 
 }
 
-
-/* Output Sections */
+/* ----------------------- */
+/* Output */
+/* ----------------------- */
 
 h3{
 
-    font-family:"Prata", serif;
+    font-family:"Prata",serif;
 
     color:#d86b97;
 
-    font-size:34px;
+    font-size:30px;
 
     margin-top:45px;
 
 }
-
 
 #output,
 #score,
 #habit,
 #reflectionOutput{
 
-    font-size:22px;
+    margin-top:20px;
 
-    color:#555;
+    font-size:20px;
 
     line-height:1.6;
 
-    margin-top:20px;
+    color:#555;
 
 }
 
-
+/* ----------------------- */
 /* Task List */
+/* ----------------------- */
 
 ul{
 
@@ -295,25 +313,14 @@ li{
 
     padding:15px;
 
-    border-radius:15px;
+    border-radius:14px;
 
     background:#fff4f8;
 
-    border:1px solid #ffd4e4;
+    border:1px solid #ffd7e6;
+
+    font-size:19px;
 
     text-align:left;
-
-    font-size:20px;
-
-}
-
-
-/* Smooth */
-
-*{
-
-    box-sizing:border-box;
-
-    scroll-behavior:smooth;
 
 }

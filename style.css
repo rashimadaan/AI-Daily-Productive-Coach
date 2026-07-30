@@ -13,11 +13,16 @@
 
 body{
 
-    background:linear-gradient(135deg,#fff8fb,#ffeef7,#fffdfd);
+    margin:0;
+    padding:50px 0 80px;
 
     font-family:"Cormorant Garamond",serif;
 
-    padding:50px 0 80px;
+    background-image:url("images/background.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 
 }
 
@@ -54,12 +59,14 @@ body{
 .container{
 
     width:88%;
-
     max-width:900px;
 
     margin:auto;
 
-    background:white;
+    background:rgba(255,255,255,0.88);
+
+    backdrop-filter:blur(8px);
+    -webkit-backdrop-filter:blur(8px);
 
     border-radius:35px;
 
@@ -67,7 +74,7 @@ body{
 
     text-align:center;
 
-    box-shadow:0 15px 45px rgba(232,173,199,.25);
+    box-shadow:0 20px 60px rgba(214,107,151,.18);
 
 }
 

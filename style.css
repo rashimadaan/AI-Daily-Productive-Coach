@@ -12,20 +12,17 @@
 }
 
 body{
+    font-family:"Cormorant Garamond", serif;
 
     margin:0;
     padding:50px 0 80px;
-
-    font-family:"Cormorant Garamond",serif;
 
     background-image:url("images/background.png");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
     background-attachment:fixed;
-
 }
-
 
 /* ===========================
    TOP TITLE

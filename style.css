@@ -10,24 +10,19 @@
     box-sizing:border-box;
     scroll-behavior:smooth;
 }
-
 body{
 
     background-image: url("download.jfif");
 
     background-size: cover;
-
     background-position: center;
-
     background-repeat: no-repeat;
-
     background-attachment: fixed;
 
-    font-family: "Cormorant Garamond", serif;
+    font-family:"Cormorant Garamond", serif;
 
-    margin: 0;
-
-    padding: 50px 0 80px;
+    margin:0;
+    padding:50px 0 80px;
 
 }
 

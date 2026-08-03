@@ -63,10 +63,7 @@ body{
 
     margin:auto;
 
-    background:rgba(255,255,255,0.92);
-
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background:white;
 
     border-radius:35px;
 
@@ -74,8 +71,9 @@ body{
 
     text-align:center;
 
-    box-shadow:0 20px 60px rgba(0,0,0,.12);
-   border: 2px solid #f6c8d9;
+    box-shadow:0 15px 45px rgba(232,173,199,.25);
+
+    border:2px solid #f3c5d6;
 
 }
 /* ===========================
@@ -279,13 +277,15 @@ h3{
 
     font-family:"Prata",serif;
 
-    color:#000;
+    color:#000000;
 
     font-size:32px;
 
+    font-weight:400;
+
     margin-top:45px;
 
-    font-weight:400;
+    margin-bottom:15px;
 
 }
 

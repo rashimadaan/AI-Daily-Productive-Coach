@@ -75,6 +75,7 @@ body{
     text-align:center;
 
     box-shadow:0 20px 60px rgba(0,0,0,.12);
+   border: 2px solid #f6c8d9;
 
 }
 /* ===========================
@@ -278,11 +279,13 @@ h3{
 
     font-family:"Prata",serif;
 
-    color:#d86b97;
+    color:#000;
 
     font-size:32px;
 
     margin-top:45px;
+
+    font-weight:400;
 
 }
 

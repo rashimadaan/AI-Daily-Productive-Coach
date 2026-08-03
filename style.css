@@ -13,17 +13,21 @@
 
 body{
 
-    font-family:"Cormorant Garamond", serif;
+    background-image: url("download.jfif");
 
-    margin:0;
-    padding:50px 0 80px;
+    background-size: cover;
 
-    background-image:url("background.png");
+    background-position: center;
 
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    font-family: "Cormorant Garamond", serif;
+
+    margin: 0;
+
+    padding: 50px 0 80px;
 
 }
 
@@ -59,14 +63,15 @@ body{
 .container{
 
     width:88%;
+
     max-width:900px;
 
     margin:auto;
 
-    background:rgba(255,255,255,0.88);
+    background:rgba(255,255,255,0.92);
 
-    backdrop-filter:blur(8px);
-    -webkit-backdrop-filter:blur(8px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 
     border-radius:35px;
 
@@ -74,11 +79,9 @@ body{
 
     text-align:center;
 
-    box-shadow:0 20px 60px rgba(214,107,151,.18);
+    box-shadow:0 20px 60px rgba(0,0,0,.12);
 
 }
-
-
 /* ===========================
    MAIN HEADING
 =========================== */
